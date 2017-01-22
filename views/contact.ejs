@@ -13,10 +13,10 @@
 <h2>EMAIL: </h2>
 <p>Contact me via email:</p>
 
-<form class="form-inline">
-	<input type="text" placeholder="Email"><br>
-	<input type="text" placeholder="Subject"><br>
-	<textarea></textarea>
+<form class="form-inline" method="POST" action="/contact">
+	<input type="text" placeholder="Email" name="email"><br>
+	<input type="text" placeholder="Subject" name="subject"><br>
+	<textarea placeholder="type your email here..." name="text"></textarea>
 	<br>
 	<button type="submit" class="btn">Submit</button>
 	<br>
