@@ -1,8 +1,45 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+body{
+  padding: .5%;
+  visibility: hidden;
 }
 
-a {
-  color: #00B7FF;
+.header{
+  background-color: #00AAAA;
+  color: #fff;
+  display: block;
+  padding: 1%;
+}
+
+.header h1{
+  font-size: 2em;
+  margin: 0;
+}
+
+.sidemenu{
+  background-color: #BBBBBB;
+  color: #0A0101;
+  border: 1px solid #0A0101;
+  margin-top: .3em;
+  margin-right: 0px;
+  padding: .2em;
+}
+
+.sidemenu li.active a{
+  background-color: #00AAAA;
+  color: #FDFEF9;
+}
+
+.sidemenu a{
+  background-color: #BBBBBB;
+  color: #0A0101; 
+}
+.sidemenu li a:hover{
+  background-color: #0A0101; 
+  color: #BBBBBB;
+}
+
+.main-content{
+  margin-top: .3em;
+  padding: .3em;
+  background-color: #3333b7;
 }
