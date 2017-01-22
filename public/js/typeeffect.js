@@ -2,11 +2,14 @@
 
 $(function(){
 
-	// type header
-	$("div.header h1").typeIt({
-		speed: 300,
-		cursor: false
+		// type header
+	$("div.header h1.pull-left").typeIt({
+		speed: 200,
+		cursor: false,
+		loop: true,
+		loopDelay: 5000
 	});
+
 
 	// type sidemenu
 	$("ul.sidemenu li a").typeIt({
