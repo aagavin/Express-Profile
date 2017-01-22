@@ -17,6 +17,7 @@ $(function(){
 	// type body
 	$("div.main-content").typeIt({
 		speed: 0,
-		lifeLike: false
+		lifeLike: false,
+		html: true
 	});
 })
