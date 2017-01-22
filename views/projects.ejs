@@ -2,5 +2,19 @@
 
 <h1>projects</h1>
 
+<% projects.forEach(function(project) { %>
+	<h2><%= project.name %></h2>
+	<p>
+	<img style="width:5em;float:right;" src="<%= project.img %>">
+	About: <%= project.about %>
+	</p>
+	<p>
+	Issue Faced: <%= project.problem %>
+	</p>
+	<p>
+	Solution:
+	<%= project.solutions %><br>
+	</p>
+<% }); %>
 
 <%- include ./partials/footer.ejs %>

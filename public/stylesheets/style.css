@@ -41,5 +41,23 @@ body{
 .main-content{
   margin-top: .3em;
   padding: .3em;
+  padding-left: .5em;
+  padding-right: .5em;
   background-color: #3333b7;
+}
+
+.main-content h1::before{
+  content: '# '
+}
+.main-content h1{
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.main-content h2{
+  border-bottom: 1px solid #fff;
+  color: #eee;
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 0;
 }
