@@ -1,8 +1,19 @@
+
+/*
+  Aaron Fernandes - 300773526 
+  COMP 308 - Assignment 1
+  https://circuat.herokuapp.com/
+
+  This file determines the services route and
+	stores the services object
+*/
 let express = require('express');
 let router = express.Router();
 
 /* GET services page. */
 router.get('/', (req, res, next)=>{
+
+	// services object
 	let services = [
 		{
 			title: 'System Adminstration',

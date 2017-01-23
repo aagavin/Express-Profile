@@ -1,8 +1,18 @@
+/*
+  Aaron Fernandes - 300773526 
+  COMP 308 - Assignment 1
+  https://circuat.herokuapp.com/
+
+  This file determines the project route and
+  stores the projects object 
+*/
 let express = require('express');
 let router = express.Router();
 
 /* GET contact page. */
 router.get('/', (req, res, next)=>{
+
+  // projects array
   let projects = [
     {
       name: 'Bank of Evil',
