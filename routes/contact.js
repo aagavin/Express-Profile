@@ -7,8 +7,12 @@ router.get('/', (req, res, next)=>{
 });
 
 router.post('/', (req, res)=>{
-  console.log(req.body.email);
+
+  // console.log(req);
+  console.log(req.body)
   res.end();
 });
 
 module.exports = router;
+
+
