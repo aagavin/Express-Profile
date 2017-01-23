@@ -1,3 +1,12 @@
+/*
+  Aaron Fernandes - 300773526 
+  COMP 308 - Assignment 1
+  https://circuat.herokuapp.com/
+
+  This file determines the contact route, and handles 
+  the post request for form handling
+*/
+
 let express = require('express');
 let router = express.Router();
 
