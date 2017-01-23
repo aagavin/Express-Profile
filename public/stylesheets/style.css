@@ -61,3 +61,17 @@ body{
   margin-top: 1em;
   margin-bottom: 0;
 }
+.main-content form{
+  width: 50%;
+  padding-bottom: 1em;
+}
+.main-content form div{
+  display: block;
+  padding: .5em;
+}
+.main-content form input, .main-content form textarea{
+  color: #0A0101;
+  width: 65%;
+  float: right;
+  display: block;
+}
