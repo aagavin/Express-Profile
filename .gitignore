@@ -31,3 +31,6 @@ npm-debug.log
 
 #vs code folder
 .vscode
+
+#Add pdf files
+*.pdf
