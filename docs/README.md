@@ -71,5 +71,5 @@ It can be download from `/stylesheets/fonts/Fixedsys500c.woff`.
 # Added features
 This are a few extra features that have been added to this project
 
-* Working contact form: [/contact](/contact)
-* This external documentation: [/docs](/docs)
+* Working contact form: [/contact](https://circuat.herokuapp.com/contact)
+* This external documentation: [/docs](https://circuat.herokuapp.com/docs)
