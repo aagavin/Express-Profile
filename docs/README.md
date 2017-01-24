@@ -68,3 +68,8 @@ The font used is `Fixedsys500c.woff` which is the font that is used throughout t
 
 It can be download from `/stylesheets/fonts/Fixedsys500c.woff`.
 
+# Added features
+This are a few extra features that have been added to this project
+
+* Working contact form: [/contact](/contact)
+* This external documentation: [/docs](/docs)
