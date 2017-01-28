@@ -42,11 +42,6 @@ This project uses Bootstrap to get this awesome theme
 A fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
 jQuery is used for for other frameworks such as BOOTSTRAP and TypeIt, Listed below
 
-
-### [BOOTSTRA.386](https://github.com/kristopolous/BOOTSTRA.386)
-This is the BOOTSTRAP theme that this project is using
-
-
 ### [TypeIt](http://macarthur.me/typeit/)
 jQuery plugin that creates the typing effect used on this site
 
