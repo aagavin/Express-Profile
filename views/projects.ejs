@@ -1,6 +1,6 @@
 <%- include ./partials/header.ejs %>
 
-<h1>projects</h1>
+<h1>Projects</h1>
 
 <% projects.forEach(function(project) { %>
 	<h2><%= project.name %></h2>
@@ -11,10 +11,10 @@
 	<p>
 	Issue Faced: <%= project.problem %>
 	</p>
-	<p>
+	<h3>
 	Solution:
 	<%= project.solutions %><br>
-	</p>
+	</h3>
 <% }); %>
 
 <%- include ./partials/footer.ejs %>

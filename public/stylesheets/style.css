@@ -5,16 +5,37 @@
 
   Custom styleing
 */
-body{
-  padding: .5%;
-  visibility: hidden;
+
+/*Font*/
+@font-face {
+  font-family: 'MainFont';
+  src: url('fonts/Fixedsys500c.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Fixedsys500c.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Fixedsys500c.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Fixedsys500c.svg#FixedsysTTF') format('svg'); /* Legacy iOS */
 }
 
+body{
+  padding: .5%;
+  background-color: rgb(0, 0, 132);
+  font-family: MainFont, sans-serif;
+}
+
+
 .header{
+  width: 100%;
   background-color: #00AAAA;
   color: #fff;
   display: block;
   padding: 1%;
+}
+
+.pull-right{
+  float: right;
+}
+
+.pull-left{
+  float: left;
 }
 
 .header h1{
@@ -23,12 +44,20 @@ body{
 }
 
 .sidemenu{
+  display: block;
+  width: 100%;
   background-color: #BBBBBB;
   color: #0A0101;
   border: 1px solid #0A0101;
   margin-top: .3em;
-  margin-right: 0px;
   padding: .2em;
+  padding-left: .5em;
+  list-style-type: none
+}
+.sidemenu hr{
+  margin: .2em;
+  color: #0A0101;
+  background-color: #0A0101;
 }
 
 .sidemenu li.active a{
@@ -38,10 +67,13 @@ body{
 
 .sidemenu a{
   background-color: #BBBBBB;
-  color: #0A0101; 
+  color: #0A0101;
+  text-decoration: none;
+  display: block;
+  margin: 0;
 }
 .sidemenu li a:hover{
-  background-color: #0A0101; 
+  background-color: #0A0101;
   color: #BBBBBB;
 }
 
@@ -51,6 +83,7 @@ body{
   padding-left: .5em;
   padding-right: .5em;
   background-color: #3333b7;
+  color: rgb(187, 187, 187);
 }
 
 .main-content h1::before{
@@ -68,6 +101,10 @@ body{
   margin-top: 1em;
   margin-bottom: 0;
 }
+
+.main-content{
+  color: rgb(187, 187, 187) !important;
+}
 .main-content form{
   width: 50%;
   padding-bottom: 1em;
@@ -81,4 +118,9 @@ body{
   width: 65%;
   float: right;
   display: block;
+}
+
+.footer{
+  display: block;
+  width: 100%;
 }
