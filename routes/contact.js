@@ -42,7 +42,7 @@ router.post('/', (req, res)=>{
       console.log('Saved email');
     }
   });
-  res.render('contact', {'messageAvailable': true, 'message': `Thanks ${req.body.name} for submitting. As soon as I read your message I'll get back to you at ${req.body.email}. <a title="Click here to all emails" href="/contact/all" >View all error</a>.`});
+  res.render('contact', {'messageAvailable': true, 'message': `Thanks ${req.body.name} for submitting. As soon as I read your message I'll get back to you at ${req.body.email}.`});
 
   res.end();
 });
