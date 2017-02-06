@@ -14,12 +14,15 @@
 <h2>EMAIL: </h2>
 <p>Contact me via email:</p>
 
+
+
 <%if (messageAvailable) { %>
 <div><%= message %></div>
+
+
 <% } else{ %>  
 <div id="contactform"></div>
 <% } %>
 
-<a title="Click here to all emails" href="/contact/all" >View all error</a>.
 
 <%- include ./partials/footer.ejs %>
