@@ -17,11 +17,8 @@ This is a basic Wireframe used the assignment
 ### [Express.js](http://expressjs.com/):
 A web application framework for Node.js. All API (routes) are generated using this framework.
 
-
 ### [EJS](https://www.npmjs.com/package/ejs)
 Embedded JavaScript templates
-
-
 
 ### [Body Parser](https://www.npmjs.com/package/body-parser)
 Used to parse POST requests to the `/contact` endpoint
@@ -71,4 +68,5 @@ It can be download from `/stylesheets/fonts/Fixedsys500c.woff`.
 This are a few extra features that have been added to this project
 
 * Working contact form: [/contact](https://circuat.herokuapp.com/contact)
+* ^ View Database: [/contact/all](https://circuat.herokuapp.com/contact/all)
 * This external documentation: [/docs](https://circuat.herokuapp.com/docs)
