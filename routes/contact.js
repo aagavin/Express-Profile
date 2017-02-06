@@ -21,9 +21,10 @@ router.get('/all', (req, res)=>{
   EmailList.find({}, (err, emailLists)=>{
     if (err) throw err;
 
-    console.log(emailLists);
+    res.send(emailLists[0]);
+
   });
-  res.send('hi');
+
 });
 
 router.post('/', (req, res)=>{
