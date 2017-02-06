@@ -26,7 +26,11 @@ Embedded JavaScript templates
 ### [Body Parser](https://www.npmjs.com/package/body-parser)
 Used to parse POST requests to the `/contact` endpoint
 
+### [Mongoose](http://mongoosejs.com/index.html)
+Elegant MongoDB object modeling for Node.js. This is used for storing db.
 
+### [mlab](https://mlab.com/databases/emaillist-assignment1)
+Cloud database used in cloud env
 
 ### [Markdown-pdf](https://www.npmjs.com/package/markdown-pdf)
 A npm module used to convert this file, which is a markdown file, to a PDF
