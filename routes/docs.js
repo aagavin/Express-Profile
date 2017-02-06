@@ -13,9 +13,6 @@ router.get('/', (req, res, next)=>{
 	.from(__dirname + '/../docs/README.md')
 	.to(__dirname + '/../docs/README.pdf', ()=>{
 
-		// res.contentType("application/pdf");
-		// res.sendFile(__dirname + '/../docs/README.pdf');
-
 		fs.createReadStream(__dirname + '/../docs/README.pdf').pipe(res);
 	})
 
