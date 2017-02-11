@@ -46,7 +46,7 @@ jQuery is used for for other frameworks such as BOOTSTRAP and TypeIt, Listed bel
 ### [TypeIt](http://macarthur.me/typeit/)
 jQuery plugin that creates the typing effect used on this site
 
-# Style Guild
+# Style Guide 
 
 ## Colours Used
 
